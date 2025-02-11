@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My projects</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 17px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display:flex;
+
+            max-width: 100%;
+            height: 100vh; /* Full viewport height */
+        }
+
+        .image-side {
+            flex: 1;
+            background-image: url('project_image.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .text-side { /* settings of the content on the side of the picture*/
+            flex: 1;
+            padding: 20px;
+            background:linear-gradient( rgb(232, 226, 226),rgb(153, 205, 223));
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .text-side h1 { /* the color of the header*/
+            margin-top: 0;
+            color:blue
+        }
+        .button
+        {
+            background-color: rgb(129, 145, 205);
+            border-radius: 5px,10px;
+            border-width: 0cqmax;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-side"></div>
+        <div class="text-side">
+            <h1>My Projects</h1>
+            <p>
+                This is the work on simulating brain activities using Competitive Queuing Neural Networks. 
+                Developed during my time with the Tujenge Scholars Program, this project emulates the brain's
+                 self-excitatory and self-inhibitory mechanisms. Using Octave, a powerful language for matrix 
+                 operations, we constructed a network with sequence, competitive, and output layers. Our simulation
+                  closely mirrored recorded chimpanzee brain activity, showcasing different processing speeds for
+                   various tasks. This research unveils the potential of Competitive Queuing Neural Networks in modeling
+                 cognitive processes. I am really grateful for the Tujenge Scholars Program for enabling this exploration..
+                 <a href="https://replit.com/@Pacy/Competitive-Queuing-Neural-Network-Octave-language-practices" target="_blank" class="button"><br>to view the project clik here</a>. <br> <br>
+                <a href="https://www.linkedin.com/feed/" target="_blank">My linkedin/a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
