@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My projects</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 17px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display:flex;
+
+            max-width: 100%;
+            height: 100vh; /* Full viewport height */
+        }
+
+        .image-side {
+            flex: 1;
+            background-image: url('A Brush Full of Colors.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .text-side { /* settings of the content on the side of the picture*/
+            flex: 1;
+            padding: 20px;
+            background:linear-gradient( rgba(62, 158, 222, 0.897),rgb(198, 220, 215));
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        .text-side h1 { /* the color of the header*/
+            margin-top: 0;
+            color:blue
+        }
+        .button
+        {
+            background-color: rgb(129, 145, 205);
+            border-radius: 5px,10px;
+            border-width: 0cqmax;
+
+        }
+        
+        iframe {
+            width: 100%;
+            height: 600px; /* Adjust height as needed */
+            border:0cqmax;
+        }
+    
+
+    </style>
+
+</head>
+<body>
+    <h1>Certificates & Recognitions</h1>
+    <p>
+        <h3>Great learning Certificate</h3>
+        Through the exceptional opportunity provided by Great Learning, I was able
+         to acquire fundamental Python skills. This knowledge served as a springboard,
+          allowing me to delve deeper into the realm of software development and programming
+           at large. In retrospect, this experience has been a game-changer, significantly 
+           influencing my journey in the field of Computer Engineering.
+           <h3>View PDF</h3>
+            <iframe src="All Certificates combined .pdf"></iframe>
+    </p>
+        
+
+</body>
+</html>
