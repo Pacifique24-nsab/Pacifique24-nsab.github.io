@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Artwork</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 17px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display:flex;
+
+            max-width: 100%;
+            height: 100vh; /* Full viewport height */
+        }
+
+        .image-side {
+            flex: 1;
+            background-image: url('A Brush Full of Colors.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .text-side { /* settings of the content on the side of the picture*/
+            flex: 1;
+            padding: 20px;
+            background:linear-gradient( rgba(209, 41, 161, 0.897),rgb(223, 219, 14), rgb(6, 85, 6));
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        .text-side h1 { /* the color of the header*/
+            margin-top: 0;
+            color:blue
+        }
+        .button
+        {
+            background-color: rgb(129, 145, 205);
+            border-radius: 5px,10px;
+            border-width: 0cqmax;
+
+        }
+        
+        iframe {
+            width: 100%;
+            height: 600px; /* Adjust height as needed */
+            border:0cqmax;
+        }
+    
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-side"></div>
+        <div class="text-side">
+            <h1> My Art work</h1>
+            <p>
+                    My name is Pacifique Nsabumukiza. I am a young Burundian artist fascinated by design.
+                    I spend most of my time drawing.Drawing allows me to express my thoughts to the outside 
+                    world,so Ispent most of my time doing it. It helps me describe myself. Because  drawing
+                     allows me  to decompress when something bothers me.Drawing inspires me to be more inventive,
+                     self-sufficient,and creative.Drawing gives me a lot of pleasure. Drawing delights and uplifts
+                    me; it provides me with a sense of relaxation, creativity, and inspiration since it helps me
+                    to explore different objects or natures, reflect on previous prior circumstances, and express
+                    my sentiments or emotions. I am very delighted to share with you my four favorite drawings 
+                    that I have done recently. In these drawings, I have used these two instruments:
+                    1.A Pencil(HB2) <br> 
+                    2.Paper(A4)
+                   <!--to add a frame to scroll and be able to view my art work projects-->
+                   <h3>View PDF</h3>
+                    <iframe src="Paccy_visualArt.pdf"></iframe>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
